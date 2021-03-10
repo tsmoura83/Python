@@ -9,5 +9,6 @@ while produto != 'sair':
     if produto != 'sair':
         carrinho.append(produto)
 
-for produto in carrinho:
-    print(produto)
+for indice, produto in enumerate(carrinho):
+    print(indice,produto)
+    
