@@ -1,0 +1,13 @@
+# Programa que cria uma ista para inclusão de produtos
+
+carrinho = []
+produto = ''
+
+while produto != 'sair':
+    print("Adicione um produto na lista ou digite 'sair' para sair: ")
+    produto = input()
+    if produto != 'sair':
+        carrinho.append(produto)
+
+for produto in carrinho:
+    print(produto)
